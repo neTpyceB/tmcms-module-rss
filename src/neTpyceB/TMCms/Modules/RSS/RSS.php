@@ -1,12 +1,14 @@
 <?php
 namespace neTpyceB\TMCms\Modules\RSS;
 
+use neTpyceB\TMCms\Modules\IModule;
+
 defined('INC') or exit;
 
 /**
  * Class ModuleRss
  */
-class Rss implements neTpyceB\TMCms\Modules\IModule
+class Rss implements IModule
 {
     /** @var $this */
     private static $instance;
