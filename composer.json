@@ -1,8 +1,8 @@
 {
-  "name": "neTpyceB/TMCms",
+  "name": "neTpyceB/TMCms-module-rss",
   "type": "library",
-  "description": "Core for TMCms",
-  "keywords": ["cms"],
+  "description": "Module RSS for TMCms",
+  "keywords": ["module", "rss"],
   "homepage": "http://petrik.lv/",
   "license": "proprietary",
   "authors": [
@@ -16,16 +16,6 @@
   "autoload": {
     "psr-0": {
       "neTpyceB\\TMCms": "src"
-    },
-    "files": ["src/neTpyceB/TMCms/Aliases.php"]
-  },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "git@bitbucket.org:neTpyceB/tmcms.git"
     }
-  ],
-  "require": {
-    "videlalvaro/php-amqplib": "2.2.*"
   }
 }
