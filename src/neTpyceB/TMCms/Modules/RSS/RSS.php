@@ -126,7 +126,8 @@ class RSS implements IModule
             if ($this->getChannelImageLink()) $res .= '<link>'. $this->getChannelImageLink() .'</link>';
             $res .= '</image>';
         }
-        while (list(, $v) = each($this->getItems())) {
+        $items = $this->getItems();
+        while (list(, $v) = each($items)) {
             $res .= '<item>';
             if (isset($v['title'])) $res .= '<title><![CDATA['. $v['title'] .']]></title>';
             if (isset($v['link'])) $res .= '<link>'. htmlspecialchars($v['link']) .'</link>';
