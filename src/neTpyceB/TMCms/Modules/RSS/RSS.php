@@ -8,7 +8,7 @@ defined('INC') or exit;
 /**
  * Class ModuleRss
  */
-class Rss implements IModule
+class RSS implements IModule
 {
     /** @var $this */
     private static $instance;
