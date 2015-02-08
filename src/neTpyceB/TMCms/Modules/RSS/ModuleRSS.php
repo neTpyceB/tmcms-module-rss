@@ -13,6 +13,8 @@ class ModuleRSS implements IModule
     /** @var $this */
     private static $instance;
 
+    public static $tables = [];
+
     public static function getInstance() {
         if (!self::$instance) self::$instance = new self;
         return self::$instance;
