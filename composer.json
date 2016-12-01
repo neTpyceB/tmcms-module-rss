@@ -1,15 +1,15 @@
 {
-  "name": "neTpyceB/TMCms-module-rss",
+  "name": "devp-eu/tmcms-module-rss",
   "type": "library",
   "description": "Module RSS for TMCms",
-  "keywords": ["module", "rss"],
-  "homepage": "http://petrik.lv/",
+  "keywords": ["module", "rss", "TMCms"],
+  "homepage": "http://devp.eu/",
   "license": "proprietary",
   "authors": [
     {
       "name": "Vadims Petrusevs",
-      "email": "info@petrik.lv",
-      "homepage": "http://petrik.lv/",
+      "email": "info@devp.eu",
+      "homepage": "http://devp.eu/",
       "role": "Developer"
     }
   ],
